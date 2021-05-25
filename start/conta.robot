@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation        suite para testar a classe ContaLibrary
 
-Library              ContaLibrary.py
+Library              ./app/ContaLibrary.py
 
 *** Test Cases ***
 Quando abro uma nova conta deve retornar saldo ZERADO
