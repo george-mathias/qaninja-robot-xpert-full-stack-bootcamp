@@ -1,0 +1,4 @@
+Evaluate:           permite realizar operações aritméticas
+Fail:               falha o teste
+Log To Console:     imprime mensagem no Console
+${idade}=    Set Variable    18: variável, keyword, valor
