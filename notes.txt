@@ -2,3 +2,10 @@ Evaluate:           permite realizar operações aritméticas
 Fail:               falha o teste
 Log To Console:     imprime mensagem no Console
 ${idade}=    Set Variable    18: variável, keyword, valor
+
+03.heroku-cli
+- baixar e instalar o terminal no windows na página de deploy;
+- heroku --version: exibe a versão
+- heroku login: exibe uma mensagem para abrir o browser para efetuar o login
+  - clicar no botão de login, caso não faça automaticamente
+  - após efetuar o login, deve aparecer o seu email no terminal
