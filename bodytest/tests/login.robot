@@ -15,3 +15,17 @@ Login do Administrador
     Get Text     css=aside strong    should be    Administrador
 
     Take Screenshot
+
+Senha incorreta
+    [Tags]    2
+    New Browser     chromium    false
+    New Page        https://bodytest-web-george.herokuapp.com
+
+    Fill Text    css=input[id=email]          admin@bodytest.com
+    Fill Text    css=input[id=password]       abc123
+    Click        text=Entrar
+    
+    Wait For Elements State    css=.Toastify__toast-body    visible    5
+    Get Text                   css=.Toastify__toast-body    should be    Usuário ou senha inválido
+
+    Take Screenshot
